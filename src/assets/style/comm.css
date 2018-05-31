@@ -1,0 +1,437 @@
+/*全局css*/
+html {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    /* font-family: 微软雅黑; */
+    font-family: 'Droidsansfallback';
+}
+
+html,
+body {
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    /*background: #fff;*/
+    /* font-family: 微软雅黑; */
+    font-family: 'Droidsansfallback', NotoSansSChineseThin;
+    
+    background: #f2f6f7;
+    height: 100%;
+}
+
+body {
+    /* line-height: 1.5; */
+    font-size: 0.8rem;
+    color: #212121;
+    outline: 0;
+}
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{
+    -webkit-appearance:textfield;
+}
+input[type="number"]{
+    -moz-appearance:textfield;
+}
+/* element-ui资料认证工作地址 */
+.el-input__inner{
+    border:none;
+    padding-left:10px;
+}
+.el-input__suffix{
+    display: none;
+}
+
+
+.el-input__inner::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #999;
+}
+
+.el-input__inner:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #999;
+}
+
+.el-input__inner::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #999;
+}
+
+.el-input__inner:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #999;
+}
+html,
+body,
+header,
+section,
+footer,
+div,
+ul,
+ol,
+li,
+img,
+a,
+span,
+em,
+del,
+legend,
+center,
+strong,
+var,
+fieldset,
+form,
+label,
+dl,
+dt,
+dd,
+cite,
+input,
+hr,
+time,
+mark,
+code,
+figcaption,
+figure,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    /* font-family:Helvetica!important; */
+    /* font-family: Microsoft Yahei,SimSun,Helvetica;
+    font-family: PingFangSC-Regular,Helvetica;
+    font-family: Droid Sans Fallback,Helvetica;
+    font-family:  STHeiti,Helvetica; */
+    font-family: Helvetica, Tahoma, Arial, "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+    font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+    
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+textarea {
+    overflow: hidden;
+    resize: none;
+}
+
+button {
+    overflow: visible;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+    color: inherit;
+    -webkit-user-select:auto;
+}
+
+
+/*==============*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #999;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #999;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #999;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #999;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    cursor: none;
+}
+
+a:link {
+    color: #666666;
+}
+
+a:visited {
+    color: #666666;
+}
+
+a:hover {
+    color: #C91618;
+}
+
+a:active {
+    color: #666666;
+}
+
+a,
+button,
+input,
+optgroup,
+select,
+textarea {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.clearfix {
+    height: 1%;
+}
+.sub_btn{
+    padding: 0.63rem 0.4rem;
+    background: #f0f0f0;
+    box-sizing: border-box;
+}
+.sub_btn a{
+    display: block;
+    background: #377bee;
+    color: #fff;
+    text-align: center;
+    line-height: 1.26rem;
+    font-size: 0.52rem;
+    border-radius: 0.1rem;
+}
+.delete{
+    padding: 0rem 0.4rem 0.63rem;
+    background: #f0f0f0;
+}
+.delete a{
+    display: block;
+    background: #e24a4a;
+    color: #fff;
+    text-align: center;
+    line-height: 1.26rem;
+    font-size: 0.52rem;
+    border-radius: 0.1rem;
+}
+.sub_next{
+    padding: 1rem 0rem 0.63rem;
+    background: #fff;
+}
+.sub_next a{
+    display: block;
+    background: #377bee;
+    color: #fff;
+    text-align: center;
+    line-height: 1.3rem;
+    font-size: 0.52rem;
+    border-radius: 0.1rem;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    /* height: 1.35rem;
+    line-height: 1.35rem; */
+    background-color: #3d7fed;
+    z-index: 999;
+    /* font-family: 微软雅黑; */
+    font-family: 'Droidsansfallback';
+}
+.fh{height: 1.45rem}
+.header>p{
+    text-align: center;
+    font-size: 0.54rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #fff;
+    /* margin-left: 3rem;
+    margin-right: 3rem; */
+    height: 2rem;
+    line-height: 2.6rem;
+    /* height: 1.35rem;
+    line-height: 1.35rem; */
+}
+.header .go_return{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0.95rem;
+    height: 2rem;
+    line-height: 2.6rem;
+    /* height: 1.35rem;
+    line-height: 1.35rem; */
+    background: url(../../assets/img/img_24.png) no-repeat;
+    background-position: 0.45rem 1rem;
+    background-size: 0.3rem auto;
+    vertical-align: middle;
+}
+.header .right_btn{
+    float: right;
+    position: absolute;
+    top: 0.01rem;
+    right: 0;
+    padding-right: 0.25rem;
+    height: 2rem;
+    line-height: 2.6rem;
+    /* height: 1.35rem;
+    line-height: 1.35rem; */
+    background-position: center 0.29rem;
+    background-size: 0.7rem auto;
+    vertical-align: middle;
+    font-size: 0.4rem;
+    color: #fff;
+}
+.header .right_btn img{
+    width: 0.5rem;
+}
+.white{
+    background:#ffffff!important;
+}
+.c_0{background: #377bee;}
+.c_1{background: #f9d65f;}
+.c_2{background: #37c3f3;}
+.c_3{background: #f49b4f;}
+.c_4{background: #8c78f4;}
+.c_5{background: #f9d65f;}
+.c_6{background: #377bee;}
+.c_7{background: #8c78f4;}
+.c_8{background: #f49b4f;}
+.c_9{background: #37c3f3;}
+.c_10{background: #f9d65f;}
+.no-data-text{
+  font-size: 0.4rem;
+}
+.mbsc-control-ev{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    color: #1e1e1e;;
+}
+
+/* 车辆评估上牌时间 */
+.picker-slot.picker-slot-center:nth-child(3){
+    flex: 0 0 0%!important;
+    -webkit-box-flex: 0!important;
+}
+
+/* 轮播图焦点样式 */
+.swiper-pagination-bullet {
+    width: .25rem!important;
+    height: .25rem!important;
+    display: inline-block!important;
+    border-radius: 100%!important;
+    background: #fff!important;
+    opacity: 0.2!important;
+}
+.swiper-pagination-bullet-active {
+    opacity: .7!important;
+    /* background: #007aff; */
+    background: #fff!important;
+    width: .6rem!important;
+    height: .2rem!important;
+    border-radius: .2rem!important;
+    position: relative!important;
+    top: -.025rem!important;
+}
+
+
+/* 消息列表mint-ui样式 */
+
+.mint-cell-wrapper {
+    background-image: -webkit-linear-gradient(top,#fff,#fff 50%,transparent 0)!important;
+    background-image: linear-gradient(180deg,#fff,#fff 50%,transparent 0)!important;
+    background-image: -moz-linear-gradient(top,#fff,#fff 50%,transparent 0)!important;
+    background-image: -o-linear-gradient(top,#fff,#fff 50%,transparent 0)!important;
+    height: 1.2rem;
+}
+.layui-m-layercont{
+    line-height: .6rem!important;
+}
+.layui-m-layerbtn span{
+    font-size: .3rem!important;
+}
+/* 上拉加载 */
+/*  上拉加载结束 */
+
+/* .layui-m-layershade {
+    background-color: rgba(255, 255, 255, 0)!important;
+    pointer-events: auto;
+} */
+.layui-m-layer2 .layui-m-layercont i {
+    background-color: #ccc!important;
+}
+
+/* mint-ui上拉加载 */
+.mint-loadmore{
+    /* height:calc(100vh / 750 * 230); */
+    overflow: initial!important;
+}
+.mint-loadmore-top{
+    margin-top:-1.5rem!important;
+    height: 1.5rem!important;
+    line-height: 1.5rem!important;
+}
+.mint-cell-text{
+    font-size: .45rem!important;
+}
+.mint-cell{
+    height: 1.2rem!important;
+}
+.mint-indexlist-navitem{
+    font-size: .45rem!important;
+}
